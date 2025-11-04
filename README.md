@@ -5,7 +5,7 @@ This website showcases my projects, skills, and experiences as an aspiring Data 
 
 ✅ Live Demo
 
-🔗 Live Website: Add your deployed link here https://wyaced.github.io/Portfolio/
+🔗 Live Website: https://wyaced.github.io/Portfolio/
 
 👨‍💻 About Me
 
@@ -32,3 +32,4 @@ My goal is to build meaningful projects that make a real-world impact.
 - Technology stack section
 
 - Contact links 
+
