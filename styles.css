@@ -10,6 +10,11 @@ a {
   text-decoration: none;
 }
 
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+
 /* Navbar */
 .navbar {
   background-color: #272757;
@@ -22,19 +27,18 @@ a {
   top: 0;
   z-index: 1000;
   flex-wrap: wrap;
-}
+} 
 
 .logo {
   display: flex;
   align-items: center;
   font-size: 1.5rem;
-  font-weight: bold;
+  
 }
 
 .logo img {
   height: 40px;
   margin-right: 0.5rem;
-  filter: brightness(0) invert(1);
 }
 
 .nav-links {
@@ -131,15 +135,19 @@ a {
 .stack-track {
   display: flex;
   gap: 1rem;
-  animation: scroll 25s linear infinite;
+  animation: scroll 60s linear infinite;
+  padding-left: 120px;
+  padding-right: 120px;
+  width: max-content;
 }
 
-.stack-item {
+.stack-item { 
   background-color: #272757;
   color: white;
   border-radius: 40px;
   padding: 1.2rem 1.5rem;
   min-width: 160px;
+  max-width: 160px;
   text-align: center;
   display: flex;
   flex-direction: column;
