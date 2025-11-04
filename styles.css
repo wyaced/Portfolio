@@ -125,6 +125,7 @@ a {
   width: 100%;
   max-width: 900px;
   position: relative;
+  padding: 0 120px;
 }
 
 .stack-track {
@@ -157,7 +158,6 @@ a {
   height: 48px;
   object-fit: contain;
   margin-bottom: 0.6rem;
-  filter: brightness(0) invert(1);
   opacity: 0.9;
   transition: opacity 0.3s ease;
 }
@@ -171,6 +171,11 @@ a {
   font-weight: 600;
   font-size: 1rem;
   white-space: nowrap;
+}
+
+.stack-panels:hover .stack-track,
+.stack-track:hover {
+  animation-play-state: paused;
 }
 
 @keyframes scroll {
