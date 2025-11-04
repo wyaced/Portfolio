@@ -189,12 +189,7 @@
             A thesis project integrating web-based admissions with AI-powered
             decision support.
           </p>
-          <a
-            href="https://github.com/yourusername/admission-ai"
-            target="_blank"
-            class="project-btn"
-            >View Project</a
-          >
+          <a href="bawal" target="_blank" class="project-btn">View Project</a>
         </div>
 
         <div class="project-card">
@@ -248,5 +243,17 @@
 
       <p>© 2025 Cedric Wade Pua.</p>
     </footer>
+
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+    
   </body>
 </html>
